@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Javascript</title>
+		
+		
+		
+	</head>
+	
+	
+	
+	<body>
+		
+		<script type="text/javascript">
+			var myArray = new Array();
+			
+			myArray[0] = "pizza";
+			myArray[1] = "chocolate";
+			
+			var tweets = ["morning everybody","I love coffee!"];
+			//add
+			tweets.push("Back to work!");
+			//delete: position start deleting, number of items to be deleted
+			tweets.splice(1,2);
+			//add in tweet
+			tweets.splice(1,0,"Cornflakes for breakfast!");
+			// replace (delete & add)
+			tweets.splice(1,1,"I love tea!","I love milk");
+			console.log(myArray);
+			console.log(tweets);
+			alert(tweets[1]);
+			
+		</script>
+		
+		
+	</body>
+
+
+
+</html>

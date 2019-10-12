@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Javascript</title>
+		
+		
+		
+	</head>
+	
+	
+	
+	<body>
+		
+		<p>How many fingers are you hoding up?</p>
+		<p>
+			<select id="myNumber">
+				<option>0</option>
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+				<option>5</option>
+			</select>
+		</p>
+		<button id="guess">Guess!</button>
+		
+		
+		<script type="text/javascript">
+			/*
+			var tweetString = "";
+			var tweets = ["Hi everyone!","I love cornflakes!","Night night:)"];
+			var i = 0;
+			while (i < tweets.length){
+				tweetString = tweetString +  "<p>" + tweets[i] + "</p>";
+				i++;
+			}
+			document.getElementById("tweetDiv").innerHTML = tweetString;
+			*/
+			
+			document.getElementById("guess").onclick = function(){
+				var myNumber = document.getElementById("myNumber").value;
+				var gotIt = false;
+				var numberOfGuesses = 1;
+				
+				while(gotIt == false){
+					var randNum = Math.floor(Math.random() * 6);
+					
+					if (randNum == myNumber){
+						//Computer is correct
+						gotIt = true;
+						alert("Got it! It was a " + randNum +". It took me "+ numberOfGuesses + " guesses.");
+					}else{
+						//Computer is wrong
+						numberOfGuesses++;
+					}
+				}
+				
+			
+			}
+			
+			
+			
+			
+			
+		</script>
+		
+		
+	</body>
+
+
+
+</html>
