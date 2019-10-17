@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>jQuery</title>
+		<!---<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>---->
+		<script type="text/javascript" src="jquery.min.js"></script>
+		
+		<style type="text/css">
+		
+			
+			#hiddenText{
+			
+				display:none;
+			
+			}
+		
+		</style>
+		
+		
+	</head>
+	
+	
+	
+	<body>
+		
+		
+		
+		
+		<p id="Text">This is some text.</p>
+		
+		<p id="hiddenText">This is some hidden text.</p>
+		<button id="fadeIn">Fade In!</button>
+		<button id="fadeOut">Fade out!</button>
+		<button id="toggle">Toggle</button>
+		
+		<script type="text/javascript">
+			
+			var textShowing = true;
+			
+			
+			$("#toggle").click(function(){
+				
+				if (textShowing){
+					//$("#Text").css("display") == "none" is a better way out
+					$("#Text").fadeOut(function(){
+						textShowing = false;
+					});
+					
+				}else{
+					$("#Text").fadeIn(function(){
+						textShowing = false;
+					});
+				}
+				
+				
+			
+			})
+			
+			
+			$("#fadeOut").click(function(){
+			
+				$("#Text").fadeOut();
+			
+			})
+			
+			$("#fadeIn").click(function(){
+			
+				$("#hiddenText").fadeIn();
+			
+			})
+			
+			
+			
+			$("div").click(function(){
+				
+				/*
+				$(this).fadeOut("slow",function(){
+					alert("FadeOut has finished");
+				
+				
+				});
+				*/
+				//$(this).hide();
+			
+			})
+
+		</script>
+		
+		
+	</body>
+
+
+
+</html>

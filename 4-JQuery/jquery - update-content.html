@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>jQuery</title>
+		<!---<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>---->
+		<script type="text/javascript" src="jquery.min.js"></script>
+		
+		<style type="text/css">
+		
+			#circle{
+				width:150px;
+				height:150px;
+				border-radius:50%;
+				background-color:green;
+			
+			}
+			
+			
+		
+		</style>
+		
+		
+	</head>
+	
+	
+	
+	<body>
+		
+		
+		<div id="circle"></div>
+		
+		<p>This is some text.</p>
+		
+		<iframe src="http://www.codestars.com"></iframe>
+		
+		
+		
+		<script type="text/javascript">
+			
+			$("#circle").click(function(){
+				
+				
+				$("p").html("This text has changed!");
+
+			})
+			$("#circle").hover(function(){
+				
+				//alert($("p").html())
+				$("iframe").attr("src","http://www.baidu.com");
+
+			})
+		
+			
+
+		</script>
+		
+		
+	</body>
+
+
+
+</html>
