@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>HTML 5 and CSS3</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+    
+		<style>
+			
+			h1{
+			
+				color:red;
+			
+			}
+			
+			.green{
+			
+				color:green;
+			}
+		
+			
+			#blue{
+				font-size:
+			}
+			
+			
+			div p {
+              
+              font-weight: bold; <!---- select all the paragraph in the div -->
+              
+			}
+			
+			
+			h3 ~ p {
+              
+              text-decoration: underline; <!-- select all the paragraphs in the div that has h3 in it -->
+              
+			}
+			
+			
+			h3 + p {
+              
+              font-size: 150%; <!-- select  the paragrap following an h3 -->
+              
+			}
+			
+			a[target]{
+			
+			
+				color:yellow;
+			}
+			
+			a[href="http://www.google.com"]{
+			
+			
+				font-size:200%;
+			}
+			a[href*="google"]{
+			
+			
+				font-size:200%;
+			}
+			
+			
+		</style>
+		
+		
+	</head>
+	
+	<!--
+		^= - begins with
+		$= - ends with
+		~= - has the value between two spaces
+		|= - has the value separated by hyphens (-)
+	
+	-->
+	
+	
+	<body>
+		
+		
+		<h1>I am a heading</h1>
+		
+		<div>
+			<h3>I am an h3 element</h3>
+			<p class="green"> I am a paragraph.</p>
+			<p>I'm in the div.</p>
+			<a href="" id="blue" target="_blank"> I am a link</a>		
+		
+		</div>
+		
+		
+		<div>
+			<h3>Hello</h3>
+			<p>I'm in another div.</p>
+		
+		</div>
+		<a href="http://www.google.com" id="blue" > I am another link</a>		
+		
+		<script type="text/javascript">
+			
+			
+		</script>
+		
+	</body>
+</html>

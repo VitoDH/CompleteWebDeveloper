@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>HTML 5 and CSS3</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+    
+		<style>
+			
+			#box {
+				width:100px;
+				height: 100px;
+				background-color:red;
+				border-radius:10px;
+				transition: 1s ease-in-out; /* 1s:time it takes for animation, ease-in-out:style of moving speed */
+				font-style:"arial";
+				display: flex;
+				align-items:center;
+				justify-content:center;
+				font-size:150%;
+			}
+			
+			#box:hover{
+				
+				
+				/*transform:translate(50px,50px);*/ /*move*/
+				
+				/* transform:rotate(40deg);  */  /*rotation*/
+				
+				/*transform:scale(2,4);*/       /* scale in x,y axis*/
+				
+				/*transform:skew(20deg,30deg);*/    /* stretch in different direction*/
+				
+				
+				transform: rotateZ(180deg);/* 3d transformation*/
+			}
+			
+		</style>
+		
+			
+		
+	</head>
+
+	
+	<body>
+		
+		
+		<div id="box">Box</div>
+		
+		
+		<script type="text/javascript">
+			
+			
+		</script>
+		
+	</body>
+</html>

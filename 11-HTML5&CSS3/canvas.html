@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>HTML 5 and CSS3</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+    
+		<style>
+		
+			#myCanvas{
+				border:1px solid grey;
+			
+			}
+		
+		</style>
+	
+	</head>
+
+	<body>
+		
+		<canvas id="myCanvas" width="500" height="400">
+		
+		</canvas>
+		
+		
+		<script type="text/javascript">
+			
+			var myCanvas = document.getElementById("myCanvas");
+			var context = myCanvas.getContext("2d");
+			
+			var gradient = context.createLinearGradient(200,150,300,250);
+			<!-- top left-->
+			gradient.addColorStop(0,"white");
+			gradient.addColorStop(1,"#49C900");
+			
+			context.fillStyle = gradient;
+			<!-- upper left coordinate , width, height-->
+			context.fillRect(200,150,100,100);
+			
+			<!-- draw a line from bottom left to upper right-->
+			context.moveTo(200,250);
+			context.lineTo(300,150);
+
+			
+			<!-- draw a line from bottom right to upper left-->
+			context.moveTo(200,150);
+			context.lineTo(300,250);
+			
+			
+			context.lineWidth = 5;
+			context.strokeStyle = "#F42924";
+			context.stroke();
+			
+			
+			context.beginPath();
+			<!-- coordinates of center,radius,amount of arc from 0 to 2pi-->
+			context.arc(100,100,50,0,2*Math.PI);
+			context.stroke();
+			
+			var textGraident = context.createLinearGradient(200,50,300,50);
+			textGraident.addColorStop(0,"red");
+			textGraident.addColorStop(1,"yellow");
+			
+			context.fillStyle = textGraident;
+			context.font= "20px Arial";
+			context.fillText("My Canvas", 200, 50);
+		</script>
+		
+	</body>
+</html>
