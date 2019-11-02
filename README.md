@@ -11,6 +11,8 @@ URL: <http://www.vitodhzzz.tech/>
 
 Description: has the basic functions of twitter including Login/Signup system, follow/unfollow, post tweet and search tweet.
 
+Note: Need to add database configuration in functions.php.
+
 
 
 ### Secret Diary
@@ -18,6 +20,8 @@ Description: has the basic functions of twitter including Login/Signup system, f
 URL: <http://www.vitodhzzz.tech/Project/App/SecretDiary/secretDiary.php>
 
 Description: a secret blog enabling users to write their own diaries, which can be automatically saved.
+
+Note: Need to add database configuration in connection.php.
 
 
 
