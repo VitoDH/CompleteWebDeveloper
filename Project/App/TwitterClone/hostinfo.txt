@@ -1,0 +1,12 @@
+
+Thank you for your order with HostGator.com!
+
+You can login to our billing system at https://portal.hostgator.com/login, using the email address we sent this email to, and the password included in your Welcome email.
+    Shared Plan:        Baby
+    Your Control Panel: https://gator4306.hostgator.com:2083
+    Username:           vitodh
+    Domain:             vitodhzzz.tech
+    Password:           3RF9V/niaDJV
+    1st Nameserver:     ns8611.hostgator.com
+    2nd Nameserver:     ns8612.hostgator.com
+    Server IP:          162.241.194.47
