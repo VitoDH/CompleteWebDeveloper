@@ -1,7 +1,7 @@
 <?php
     // connect to database
     session_start();
-    $link = mysqli_connect("shareddb-o.hosting.stackcp.net","twitter-313039166a","T?&n&K:e./`.","twitter-313039166a");
+    $link = mysqli_connect("server name","user-name","password","databse name");
 
     
     if (mysqli_connect_errno()){
