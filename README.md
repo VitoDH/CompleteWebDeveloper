@@ -35,7 +35,7 @@ Description: utilize Bootstrap to build up an App landing page with basic Layout
 
 ### Weather Scraper
 
-URL:http://www.compofire.com/Project/App/WeatherScraper/weatherScraper.php>
+URL:http://www.compofire.com/Project/App/WeatherScraper/weatherScraper.php
 
 Description: enter a location and you can get its most updated weather!
 
@@ -51,7 +51,7 @@ Description: leverage app.js to build a local app so that user can send emails t
 
 ### Code Player
 
-URL:http://www.compofire.com/Project/Game/CodePlayer/codePlayer.html>
+URL:http://www.compofire.com/Project/Game/CodePlayer/codePlayer.html
 
 Description: Wanna some practice on HTML, CSS and Javascript work? This platform will demo your code instantly!
 
@@ -59,7 +59,7 @@ Description: Wanna some practice on HTML, CSS and Javascript work? This platform
 
 ### Reaction Tester
 
-URL:http://www.compofire.com/Project/Game/ReactionTester/reactionTester.html>
+URL:http://www.compofire.com/Project/Game/ReactionTester/reactionTester.html
 
 Description: Test your reaction! My fastest record is 0.327s. I am sure you can beat me:)
 
@@ -67,7 +67,7 @@ Description: Test your reaction! My fastest record is 0.327s. I am sure you can 
 
 ### Clock
 
-URL:http://www.compofire.com/Project/Game/Clock/clockFace.html>
+URL:http://www.compofire.com/Project/Game/Clock/clockFace.html
 
 Description: I am a clock who has to keep running, otherwise I will be caught up by loneliness.
 
@@ -87,7 +87,7 @@ Description: A contact form to help customer provide their feedback!
 
 ### Form Validation
 
-URL:http://www.compofire.com/Project/Form/FormValidation/formValidation.html>
+URL:http://www.compofire.com/Project/Form/FormValidation/formValidation.html
 
 Description: A basic module for validation of log in system. Examine the absence of email, telephone,password etc.
 
@@ -99,6 +99,7 @@ Description: A basic module for validation of log in system. Examine the absence
 
 ### BBC
 
-URL: <http://www.compofire.com/Project/Basic/BBC/BBC.html>>
+URL: <http://www.compofire.com/Project/Basic/BBC/BBC.html>
 
 Description: Clone the home page of BBC.
+
